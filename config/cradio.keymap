@@ -73,8 +73,8 @@
         //│   F11    │   F12    │  F3      │  F4      │   F5     │   │   F6     │  F7      │   F8     │  F9      │  F10     │
             &kp F11     &kp F12   &kp F3     &kp F4     &kp F5         &kp F6     &kp F7     &kp F8      &kp F9     &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ UP       │  LEFT    │  DOWN    │  RIGHT   │  DELETE  │   │  #       │  _       │  @       │  €       │  ~       │
-            HRML(UARW,    LARW,    DARW,     RARW)     &kp DEL       &kp FR_HASH HRMR(FR_UNDS, FR_AT,    FR_EURO,    FR_TILD)
+        //│ UARW     │  LARW    │  DARW    │  RARW    │  DELETE  │   │  #       │  _       │  @       │  €       │  ~       │
+            HRML(UP,    LEFT,      DOWN,     RIGHT)     &kp DEL       &kp FR_HASH HRMR(FR_UNDS, FR_AT,    FR_EURO,    FR_TILD)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   CAPS   │     ¨    │      `   │   FIN    │   HOME   │   │  à       │  é       │  ù       │  ç       │    è     │
             &kp CAPS  &kp FR_DIAE &kp FR_GRV  &kp END   &kp HOME    &kp FR_AGRV &kp FR_EACU &kp FR_UGRV &kp FR_CCED &kp FR_EGRV
