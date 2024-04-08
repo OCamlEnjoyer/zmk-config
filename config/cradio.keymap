@@ -36,14 +36,14 @@
         default_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  A       │  WZ      │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp FR_W   &kp FR_C   &kp FR_X  &kp FR_F   &kp FR_Z       &kp FR_P   &kp FR_D    &kp FR_T   &kp FR_V   &kp FR_J
+        //│  A       │   Z      │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
+            &kp FR_A   &kp FR_Z   &kp FR_E  &kp FR_R   &kp FR_T       &kp FR_Y   &kp FR_U    &kp FR_I   &kp FR_O   &kp FR_P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Q       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ M        │
-            HRML(FR_I,   FR_S,    FR_R,       FR_H)     &kp FR_G       &kp FR_Y   HRMR(FR_N,    FR_U,     FR_E,       FR_K)
+            HRML(FR_Q,   FR_S,    FR_D,       FR_F)     &kp FR_G       &kp FR_H   HRMR(FR_J,    FR_K,     FR_L,       FR_M)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  W       │  X       │  C       │  V       │  B       │   │  N       │  , ?     │   ; .    │ : /      │ ! §      │
-            &kp FR_A   &kp FR_O   &kp FR_B &kp FR_COMM &kp FR_SCLN    &kp FR_L    &kp FR_M  &kp FR_Q  &kp FR_COLN &kp FR_EXLM
+            &kp FR_W   &kp FR_X   &kp FR_C &kp FR_V &kp FR_B           &kp FR_N &kp FR_COMM &kp FR_SCLN &kp FR_COLN &kp FR_EXLM
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 1 TAB   &kp ENTER     &kp SPACE  &lt 2 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -87,8 +87,8 @@
         tri_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ MUTE     │  V_DOWN  │    V_UP  │ BRI_DOWN │   BRI_UP │   │  IMPECR  │          │          │          │   PIP    │
-        &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP  &kp PSCRN   &none     &none     &none      &kp C_PIP
+        //│ MUTE     │  V_DOWN  │    V_UP  │ BRI_DOWN │   BRI_UP │   │  IMPECR  │     F1   │   F2     │          │   PIP    │
+        &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP  &kp PSCRN   &kp F1     &kp F2   &none      &kp C_PIP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          |          |
             &none        &none     &none     &none     &none          &none      &none       &none      &none      &none
